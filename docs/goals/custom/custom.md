@@ -12,6 +12,13 @@ For example, you might create a weight goal that automatically sources data from
 #### How should I enter data for a custom goal?
 It depends on the settings you enable, mostly on whether the goal's data is auto-summing or not.  Auto-summing data is like a Do More or Do Less, while not auto-summing covers the rest of the goal types.
 
+#### How do I make a custom goal?
+If you're a Bee Plus or Beemium [subscriber](https://www.beeminder.com/premium), click the 'Convert to Custom' goal button at the bottom of the 'Settings' tab below the graph.  
+
+**Important note**: change settings **with caution** if the goal you're converting already has data and road history.  Because the goal settings are applied to the entire graph, if you do something like change the good side of the road, *your old extra-safe days will turn into way-off-the-road days* and you can instantly derail your goal!  Of course, this is not legit and we'll undo it when you email us in support, but it's always nicer to avoid it in the first place, right?
+
+It's simpler to start custom goals from scratch.  You can immediately delete them to 'undo' any derailment that may occur, and because there's no history, it's a lot less likely to happen in the first place!
+
 #### What do all the settings mean?
   - **Good side of the road**: whether you want to be above or below the yellow brick road.  Above is generally for things you want to do more frequently or increase over time, and below is for things to do less frequently or decrease.
   - **Direction of road**: whether the road should be going up or going down.  Going up means you should have a positive goal rate, and going down means you should have a negative goal rate.
@@ -26,6 +33,9 @@ It depends on the settings you enable, mostly on whether the goal's data is auto
 You can find a more in-depth explanation (with even more hidden settings explained!), in the [Beeminder API docs](https://www.beeminder.com/api#goal).  
 
 (TODO: maybe put graph images w/ explanations in here to exemplify differences)
+
+#### I changed a setting and my goal instantly derailed!  Help!!
+
 
 #### How exactly do exponential goals work?
 Use an exponential goal to change a value by a certain % each week.  The rate you enter is the % per week (e.g. -0.5 to decrease at 0.5% per week).
