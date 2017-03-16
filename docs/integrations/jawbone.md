@@ -1,4 +1,4 @@
-#### What can I beemind with Fitbit?
+#### What can I beemind with Jawbone?
   - steps
   - weight
   - hours of sleep
