@@ -28,3 +28,8 @@ Second, try removing and reauthorizing the service in question [here](https://ww
 Third, take a quick look at the help page for the integration and see if your problem is a known one or common question.  Most of the integrations have corner cases or specific exclusions, and you might have come across one.
 
 If none of those solve it, contact support and we'll help you out.
+
+#### I have two accounts with this service, and I authorized Beeminder to the wrong one.  Help?
+Remove and reauthorize the service in question [here](https://www.beeminder.com/settings/account#account-permissions).  
+
+If you have a Beeminder goal that already has a lot of data from this service/account, the reset may fetch new data that derails your goal.  Contact support if that happens!
