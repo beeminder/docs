@@ -50,3 +50,15 @@ Credit card.  We use [Stripe](https://www.stripe.com) for payment processing.
 
 #### How do I update my card information?
 Visit the [Payments](https://www.beeminder.com/payment) page, linked in the top navigation dropdown.
+
+#### Beeminder charged my credit card, but I don't know why.
+Also on the [Payments](https://www.beeminder.com/payment) page, you can see all the past charges we've made, from all sources - derailments, subscriptions, GTBee, IFTTT charge action, and the charge endpoint of the Beeminder API.  Each charge is either paid, failed, or refunded.  Failed charges may be listed multiple times - once it's failed, it doesn't update to paid; a new charge (with the same information, of course) is created & tried.
+
+Note that derailment charges are usually listed for one day _after_ you actually derailed on the goal, due to the 24-hour legitimacy check lag between the derailment & the charge being processed.
+
+#### What happens if the charge fails?
+First thing, we'll send you an email about it, which you can reply to.
+
+We'll also place a flag on your account that hides the graph images (**BUT DOES NOT DEACTIVATE YOUR GOALS**) until the failed charge succeeds.  We automatically retry the charge 24 hours later, but no more than that.  If the second try succeeds, the flag is lifted and you're back to beesness as usual.  If not, the flag remains.
+
+After that, the only way to clear the flag is to update your card info.  If your card info is still valid and the charge failed for other mysterious reasons (which does happen!), send us an email in support and we'll help out.
