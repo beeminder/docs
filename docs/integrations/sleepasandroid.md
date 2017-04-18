@@ -1,7 +1,10 @@
-#### What can I beemind with SleepAsAndroid?
+#### What can I beemind with Sleep as Android?
 Sleep duration in hours.
 
 The most frequent additional requests are bedtime and wakeup time.  If you're dying to have either of these or if there's another metric that you'd love to have, let us know!
+
+#### How much data does Beeminder import?
+Beeminder does not import any historical sleep data from before you started your goal, but it should fetch all sleeps after that.
 
 #### Why aren't my last sleeps showing up in Beeminder?
 First, double-check that they have been synced to the SleepCloud.  If they're not showing there, Beeminder can't pick them up.
