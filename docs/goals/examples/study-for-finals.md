@@ -1,3 +1,6 @@
+(todos: replace final image w/ arrowed version, more exposition, more bullety instructions vs. paras, final para on other settings you may want to change & links to pages (e.g. nomercy, reminders, ???))
+
+
 Goal: to study for at least 30 hours a week for the two weeks leading up to my final exams!  I'll be entering my data manually, not using any autodata or self-coded integration.
 
 1) On the [goal creation page](https://www.beeminder.com/new), click the + icon to create a new manual-data goal.
