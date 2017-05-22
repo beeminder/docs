@@ -20,7 +20,13 @@ To retroratchet, enter the desired number of safe days into the box, then press 
 If you are a Bee Plus or Beemium [subscriber](https://www.beeminder.com/premium), you will have a setting called 'Max Safe Days' right underneath the Retroratchet section.  If you check the box to 'Automatically trim safety buffer,' Beeminder will retroratchet your goal daily at your deadline time if it exceeds the number of max safe days you set in the box below.  Automatic retroratcheting works the same way as regular retroratcheting; it just happens automatically! 
 
 #### Take a Break
+This is the second (or third, if you are a Bee Plus or Beemium [subscriber](https://www.beeminder.com/premium)) option in the 'Stop/Pause' tab below the graph.  You can use this field to schedule temporary changes to your goal rate.  Usually folks want to make it easier for a spell (e.g. I don't want to study during winter holidays), so we named the feature Take a Break.  But you can also use it to make the goal _harder_ for a period as well (e.g. I want to study extra hours during the week before final exams)!
 
+To take a break, first input the dates that you want this modified rate to be active.  **The start date should be the day _before_ you want the break to begin**.  (TODO: arghhh!!!) The end date is the date you want the break to end.  Choose the rate you want to have during the break in the box below the dates, then press 'Schedule' to submit the changes to the road.
+
+The akrasia horizon is strictly enforced: a break cannot start earlier than 7 days from now - even if you're trying to make the goal harder (contact support if you want us to make that change for you!).  
+
+**A note on do-less goals**: the easiest way to take a break on _manual_ do-less goals is to disable the PPRs while you're away, then turn them back on & retroratchet the goal when you return.  For do-less goals with _automatic_ data sources, set the road rate to a _higher_ value than your regular rate to have a break.  Unlike the other goal types, a rate of 0 during your break will actually make the goal harder and more likely to derail!
 
 #### Road Editor 
 
