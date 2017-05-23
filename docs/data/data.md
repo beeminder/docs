@@ -3,7 +3,7 @@ Beeminder just needs to know how much progress you made on your goal today!  The
 
 For example, let's say I have a goal to read 100 pages per week.  I would tell Beeminder that I read 10 pages on the 8th by saying "8 10".  
 
-You can also expand the date format further if you want to enter older data: "2014 08 10 10" would add a datapoint of 10 on August 10, 2014 to my goal.  (Yes, American date format.)  We've carefully written code to infer the right date, but if we guess wrong, you can edit the data after submitting it.  
+You can also expand the date format further if you want to enter older data: "2014 08 10 10" would add a datapoint of 10 on August 10, 2014 to my goal.  We've carefully written code to infer the right date almost every single time, but if we infer incorrectly, you can also edit the data after submitting it.  
 
 #### What do I do to enter data?
 There are a bunch of ways to submit info!
@@ -15,17 +15,17 @@ There are a bunch of ways to submit info!
   - have it automatically fed from another service
   - write your own automatic service using the Beeminder API
   
-The date-value-comment format is used across all of them, though it may be presented slightly differently (date dropdowns in the dashboard, for example).  
+The date-value-comment format described above is used in most cases.  
   
 #### Do I have to enter data every day?  
-Nope!  We absolutely recommend that you try and enter the data as soon as reasonable after you've done the work, but you can enter data for any day in the past anytime.  If you forgot yesterday, just do it today, using yesterday for the date!
+Nope!  We do recommend that you try and enter the data shortly after you've done the work, but you can enter data for any day in the past anytime.  If you forgot to enter data yesterday, just do it today, and make sure you use yesterday as the date!
 
-The one semi-exception to this exists on Do Less goals: the pessimistic presumptive report.  TL;DR: we'll enter an assumed datapoint for the day if you don't enter one, and they *can* cause derailments.
+The one semi-exception to this exists on Do Less goals: a pessimistic presumptive datapoint is entered if you don't enter data for the day, which can cause your goal to derail, even if you were previously safe!  See the [Do Less docs](https://github.com/beeminder/docs/blob/master/docs/goals/do-less/do-less.md) for more information.
 
 #### I entered my data wrong.  How do I fix it?
 Update the incorrect point in the 'Data' tab below the graph, then press the 'Update' button on the right side of the line.
 
-You can also delete datapoints using the 'Delete' button, though you should do this with **extreme caution** - it may trigger an immediate derailment on your graph, if you fall far enough off track after the data is removed.
+You can also delete datapoints using the 'Delete' button, though you should do this with **extreme caution** - it may trigger an immediate derailment on your graph, if you are no longer on track after the data is removed.
 
 #### Can anybody else add or edit my data?
 No, only you and the Beeminder team can modify your data.
@@ -40,4 +40,4 @@ The easiest way to fix this is to scale your current graph into hours!  Use the 
 
 Note that if you already have data added to your graph that uses the new unit, you will want to **remove** that data **before** scaling your goal.  Otherwise, that point will get scaled to the new unit (even though it's already using the new unit), and that progress won't be represented accurately on the goal.
 
-If anything goes wrong or these instructions are terribly confusing, contact support!
+If anything goes wrong or these instructions are terribly confusing, [contact support](https://www.beeminder.com/contact)!
