@@ -18,4 +18,4 @@ Usually this happens when you've deleted cards, or you archived cards but are no
 To resolve this immediately, you can empty the lists on Trello (see the next question) or add the Archived list to your tracked lists in the Beeminder goal.  Contact support if neither of those options is a good one for your case.
 
 #### Can I start over from scratch on an already-existing goal?
-You can reset the odometer (TODO: link) by clearing out all the tracked Trello lists and pressing the 'Fetch Data' button on Beeminder.  This will add a 0 datapoint to your graph, allowing you to start fresh without losing your previous progress.
+You can [reset the odometer](https://github.com/beeminder/docs/blob/master/docs/goals/odometer/odometer.md#what-happens-if-i-need-to-restart-my-count-at-0) by clearing out all the tracked Trello lists and pressing the 'Fetch Data' button on Beeminder.  This will add a 0 datapoint to your graph, allowing you to start fresh without losing your previous progress.
